@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.1070" tests="6" failures="0">
+  <testsuite name="Root Suite" timestamp="2021-11-17T13:51:26" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="order_processor" timestamp="2021-11-17T13:51:26" tests="6" file="/home/hilmi/Desktop/hackeerankFullStack/certificate/second/test/index.spec.js" time="0.1070" failures="0">
+    <testcase name="order_processor Should have all the method placeOrder in the class" time="0.0010" classname="Should have all the method placeOrder in the class">
+    </testcase>
+    <testcase name="order_processor Should emit the event PROCESSING_STARTED when placeOrder is called" time="0.0210" classname="Should emit the event PROCESSING_STARTED when placeOrder is called">
+    </testcase>
+    <testcase name="order_processor Should emit the PROCESSING_FAILED if line items are empty" time="0.0210" classname="Should emit the PROCESSING_FAILED if line items are empty">
+    </testcase>
+    <testcase name="order_processor Should emit the PROCESSING_FAILED if any of the line items do not meet the stock requirements" time="0.0220" classname="Should emit the PROCESSING_FAILED if any of the line items do not meet the stock requirements">
+    </testcase>
+    <testcase name="order_processor Should emit the PROCESSING_SUCCESS if all the validations pass" time="0.0210" classname="Should emit the PROCESSING_SUCCESS if all the validations pass">
+    </testcase>
+    <testcase name="order_processor Should emit the PROCESSING_SUCCESS if all the validations pass for multiple orders" time="0.0210" classname="Should emit the PROCESSING_SUCCESS if all the validations pass for multiple orders">
+    </testcase>
+  </testsuite>
+</testsuites>
