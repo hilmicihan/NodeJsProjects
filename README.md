@@ -1,2 +1,2 @@
 # NodeJsProjects
-Nodejs projects and cetifications 
+It includes my nodesj projects and certificates.
